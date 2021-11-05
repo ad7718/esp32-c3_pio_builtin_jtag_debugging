@@ -19,10 +19,10 @@
 
 9. IMPORTANT: Do not forget to use good quiality USB cable without hub or use external power supply, because it may trigger BROWNOUT(and some others) event on startup and you'll spend a lot of time finding the reason.
 
-10. Pinout for builtin jtag/serial: io18 - d-, io19 - d+, link to board description: https://docs.ai-thinker.com/en/esp32c3
+10. On linux you need to install udev rules from openocd-esp32 folder: sudo cp openocd/share/openocd/contrib/60-openocd.rules /etc/udev/rules.d/60-openocd.rules
+
+11. Pinout for builtin jtag/serial: io18 - d-, io19 - d+, link to board description: https://docs.ai-thinker.com/en/esp32c3
 
 <p align="center">
 <img src="pinout.png">
 </p>
-
-11. On linux you need to install udev rules from openocd-esp32 folder: sudo cp openocd/share/openocd/contrib/60-openocd.rules /etc/udev/rules.d/60-openocd.rules
