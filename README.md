@@ -1,8 +1,8 @@
-# Platformio Ai-thinker esp32-c3 blink template with builtin USB JTAG debugging capability.
+# Platformio Ai-thinker esp32-c3 project template with ability to debug using builtin USB JTAG.
 
 1. To be able to view periph regs while debugging, you need to copy esp32c3.svd to PLATFORM_ROOT/misc/svd directory
 
-2. Platformio's openocd-esp32 compiled without builtin JTAG support. You need  to get openocd-esp32 there and unpack it to the project folder root  https://github.com/espressif/openocd-esp32/releases
+2. Platformio's openocd-esp32 compiled without builtin JTAG support. You need to get openocd-esp32 there and unpack it to the project folder root  https://github.com/espressif/openocd-esp32/releases
 
 3. If you are getting x509_crt_bundle error during compilation, edit ~/.platformio/packages/framework-espidf/components/mbedtls/esp_crt_bundle/cacrt_all.pem and remove the EC-ACC certificate or apply any other fix from
  https://github.com/espressif/esp-idf/issues/5322
