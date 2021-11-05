@@ -25,4 +25,4 @@
 <img src="pinout.png">
 </p>
 
-11. On linux you need to install udev rules from openocd-esp32 folder: sudo cp openocd/share/openocd/contrib/60-openocd.rules /etc/udev/rules.d/
+11. On linux you need to install udev rules from openocd-esp32 folder: sudo cp openocd/share/openocd/contrib/60-openocd.rules /etc/udev/rules.d/60-openocd.rules
