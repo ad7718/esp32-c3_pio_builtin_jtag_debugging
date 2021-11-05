@@ -21,7 +21,7 @@
 
 10. On linux you need to install udev rules from openocd-esp32 folder: sudo cp openocd/share/openocd/contrib/60-openocd.rules /etc/udev/rules.d/60-openocd.rules
 
-11. Pinout for builtin jtag/serial: io18 - d-, io19 - d+, link to board description: https://docs.ai-thinker.com/en/esp32c3
+11. Pinout for builtin jtag/serial: io18 - D-, io19 - D+, link to board description: https://docs.ai-thinker.com/en/esp32c3
 
 <p align="center">
 <img src="pinout.png">
