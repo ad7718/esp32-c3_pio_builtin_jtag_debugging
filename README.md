@@ -13,7 +13,7 @@
 
 6. Disable memory protection in menuconfig: toggle Component config → ESP System Settings → Memory protection → Enable memory protection (also you can compile latest openocd-esp32 that works with memory protection set)
 
-7. Enable ocd stubs in menuconfig: toggle Component config → ESP32C3-Specific OpenOCD → debugStubs
+7. Enable ocd stubs in menuconfig: toggle Component config → ESP32C3-Specific → OpenOCD debugStubs
 
 8. If platformio debugger is not working on linux: apt-get install libpython2.7
 
