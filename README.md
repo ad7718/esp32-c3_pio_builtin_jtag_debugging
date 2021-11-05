@@ -1,4 +1,4 @@
-# Platformio Ai-thinker esp32-c3 blink template with builtin JTAG debugging capability.
+# Platformio Ai-thinker esp32-c3 blink template with builtin USB JTAG debugging capability.
 
 1. To be able to view periph regs while debugging, you need to copy esp32c3.svd to PLATFORM_ROOT/misc/svd directory
 
