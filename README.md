@@ -7,9 +7,9 @@
 3. If you are getting x509_crt_bundle error during compilation, edit ~/.platformio/packages/framework-espidf/components/mbedtls/esp_crt_bundle/cacrt_all.pem and remove the EC-ACC certificate or apply any other fix from
  https://github.com/espressif/esp-idf/issues/5322
 
-4. To run ESP_IDF's menuconfig type this in platformio terminal: pio run -t menuconfig
+4. To run ESP-IDF's menuconfig type this in platformio terminal: pio run -t menuconfig
 
-5. If ESP_IDF's menuconfig is not working on linux: sudo apt install libncurses5-dev flex bison
+5. If ESP-IDF's menuconfig is not working on linux: sudo apt install libncurses5-dev flex bison
 
 6. Disable memory protection in menuconfig: toggle Component config → ESP System Settings → Memory protection → Enable memory protection (also you can compile latest openocd-esp32 that works with memory protection set)
 
