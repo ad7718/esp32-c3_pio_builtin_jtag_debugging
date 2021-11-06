@@ -24,5 +24,5 @@
 11. Pinout for builtin USB JTAG/serial: io18 - D-, io19 - D+, link to board description: https://docs.ai-thinker.com/en/esp32c3
 
 <p align="center">
-<img src="pinout.png">
+<img src="pinout.jpg">
 </p>
