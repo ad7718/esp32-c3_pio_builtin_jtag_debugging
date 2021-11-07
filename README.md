@@ -15,7 +15,7 @@
 
 7. Enable ocd stubs in menuconfig: toggle Component config → ESP32C3-Specific → OpenOCD debugStubs
 
-8. If platformio debugger is not working on linux: apt-get install libpython2.7
+8. If platformio debugger is not working on linux: sudo apt install libpython2.7
 
 9. IMPORTANT: Do not forget to use good quiality USB cable without hub or use external power supply, because it may trigger BROWNOUT(and some others) event on startup and you'll spend a lot of time finding the reason.
 
